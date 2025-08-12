@@ -11,3 +11,13 @@ while(count <= 10) {
 }
 console.log("The sum of the first 10 natural numbers is: " + sum);
 
+
+
+//2 Write a program to print the multiplication table of 5 using a while loop.
+let multiplier:number = 1;
+let numberToMultiply:number = 5;
+while(multiplier <= 10) {
+    console.log(`${numberToMultiply} x ${multiplier} = ${numberToMultiply * multiplier}`);
+    multiplier++;
+}
+
