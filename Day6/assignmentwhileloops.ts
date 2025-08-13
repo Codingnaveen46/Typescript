@@ -21,3 +21,15 @@ while(multiplier <= 10) {
     multiplier++;
 }
 
+
+//3 Write a program to find the factorial of a number (e.g., 5) using a while loop.
+
+let numberToFactorial:number = 5;
+let factorial:number = 1;
+let i:number = 1;
+while(i <= numberToFactorial) {
+    factorial *= i; // factorial = factorial * i
+    i++;
+}
+console.log(`The factorial of ${numberToFactorial} is: ${factorial}`);
+
