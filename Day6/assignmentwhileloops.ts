@@ -33,3 +33,13 @@ while(i <= numberToFactorial) {
 }
 console.log(`The factorial of ${numberToFactorial} is: ${factorial}`);
 
+// 4 Write a program to reverse a number (e.g., 12345) using a while loop.
+let numberToReverse:number = 12345;
+let reversedNumber:number = 0;
+while(numberToReverse > 0) {
+    let digit:number = numberToReverse % 10; // Get the last digit
+    reversedNumber = reversedNumber * 10 + digit; // Build the reversed number
+    numberToReverse = Math.floor(numberToReverse / 10); // Remove the last digit
+}
+console.log(`The reversed number is: ${reversedNumber}`);
+
